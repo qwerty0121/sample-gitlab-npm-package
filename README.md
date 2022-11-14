@@ -21,7 +21,7 @@ GitLab Package Registryにnpmパッケージを公開するサンプルコード
    * publishConfig.registryフィールドにnpmパッケージの公開先となるGitLabプロジェクトのnpmレジストリのURLを指定する。
      * 具体的には以下の形式の文字列を設定する。
        ```
-       http://gitlab.qwerty0121.home:8929/api/v4/projects/${GITLAB_PROJECT_ID}/packages/npm/
+       http://gitlab.example.com/api/v4/projects/${GITLAB_PROJECT_ID}/packages/npm/
        ```
      * 上記文字列に対して、以下の修正をする。
        * `gitlab.example.com`の部分をGitLabのホスト名に置き換える。
