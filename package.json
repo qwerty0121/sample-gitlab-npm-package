@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js"
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://gitlab.example.com/api/v4/projects/${GITLAB_PROJECT_ID}/packages/npm/"
+  }
 }
