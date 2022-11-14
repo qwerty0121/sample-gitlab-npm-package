@@ -70,3 +70,8 @@ GitLab Package Registryにnpmパッケージを公開するサンプルコード
    * 上記コマンドについて、以下の修正をする。
      * `@scope`の部分はインストールするnpmパッケージのスコープに置き換える。
      * `package-name`の部分はインストールするnpmパッケージの名前に置き換える。
+
+## 参考サイト
+
+* [Gitlab Package Registryを利用してプライベートNPMパッケージを運用する](https://zenn.dev/hytkgami/articles/private-npm-package-with-gitlab-package-registry)
+* [GitLabプライベートプロジェクトをNPM公開する](https://qiita.com/keyhole0/items/d9debb8f5bca3ef8adea)
